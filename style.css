@@ -69,11 +69,27 @@ li:last-child {
     background-color: white;
 }
 
+.link-btns {
+    padding-bottom: 50px;
+}
+
+.bottom-logo {
+    height: 25%;
+    width: 25%;
+    padding-bottom: 10px;
+}
+
+.copyright {
+    padding-top: 20px;
+    color: grey;
+}
+
 footer {
     background-color: black;
     color: white;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
 }
 
 
