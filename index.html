@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Shawn A. Rather</title>
+</head>
+
+<body>
+
+  <!-- Name Banner -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4" id="name">Shawn A. Rather</h1>
+    </div>
+  </div>
+
+  <!-- Nave Bar (Display none on mobile) -->
+  <nav class="navbar navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-toggle="col-3lapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Profile -->
+  <div class="profile">
+    <img src="assets/image 1.jpg" class="mainPic"></img>
+    <h1 class="display-4"><strong>Who is this guy?</strong></h1>
+    <p class="lead"> A Full Stack Web Development student at UNH<br> A Father - A Husband - A Marine</p>
+    <hr class="my-4">
+    <p>Hobbies are Technology, Martial Arts, Gaming (Vintage and Current), and grilling in the back yard.</p>
+  </div>
+
+  <!-- Projects -->
+  <div class="container-fluid projects">
+    <h1 class="projects-banner"><strong>Projects</strong></h1>
+    <hr class="hrTwo">
+    <div class="row">
+      <div class="card col-sm ml-2 mr-2" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card col-sm ml-2 mr-2" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card col-sm ml-2 mr-2" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <form class="container col-8 mt-5 mb-3">
+    <div id="post">
+        <h1 class="contact-banner"><strong>Contact Me!</strong></h1>
+        <div class="form-group ml-3 mr-3">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+        </div>
+        <div class="form-group ml-3 mr-3">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1"
+                placeholder="name@example.com">
+        </div>
+        <div class="form-group ml-3 mr-3">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <a class="gitBtn fab fa-github" href="https://github.com/SAR-SA"></a>
+        <a class="liBtn fab fa-linkedin-in" href="https://www.linkedin.com/in/shawn-a-rather-9a37ba56/"></a>
+        <a class="emBtn fab fa-linkedin-in" href="mailto:SARSA.web@gmail.com"></a>
+      </div>
+      <h1>The past can talk to the future...if the present has ears to hear and Eyes to see with.</h1>
+      <p>Designed & Built by me</p>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
