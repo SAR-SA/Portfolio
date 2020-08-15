@@ -60,6 +60,10 @@ li:last-child {
     color: white;
 }
 
+.card-img-top {
+    height: 45%;
+}
+
 .row {
     display: flex;
     justify-content: center;
