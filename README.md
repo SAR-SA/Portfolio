@@ -1,4 +1,4 @@
 # Portfolio
 
 ![](assets/Portfolio.JPG)
-![](images/Portfolio2.JPG)
+![](assets/Portfolio2.JPG)
