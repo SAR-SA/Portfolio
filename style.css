@@ -62,11 +62,23 @@ li:last-child {
 
 .card-img-top {
     height: 45%;
+    padding-top: 0px;
 }
 
 .row {
     display: flex;
     justify-content: center;
+}
+
+.card-title,
+.card-text {
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    background-color: black;
 }
 
 .hrTwo {
@@ -78,8 +90,8 @@ li:last-child {
 }
 
 .bottom-logo {
-    height: 25%;
-    width: 25%;
+    height: 15%;
+    width: 15%;
     padding-bottom: 10px;
 }
 
