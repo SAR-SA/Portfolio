@@ -52,7 +52,7 @@ li:last-child {
 
 .projects {
     background-color: black;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
 }
 
 .projects-banner {
@@ -108,7 +108,9 @@ footer {
     text-align: center;
 }
 
-
+.card-img-top {
+    height: 200px;
+}
 
 @media screen and (max-width:500px){
     .navbar {
