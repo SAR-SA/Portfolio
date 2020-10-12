@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![](assets/Portfolio.JPG)
-![](assets/Portfolio2.JPG)
+![](assets/PortfolioProjectsPic.JPG)
 
 ## Table of Contents
 - [Description](#descriptiongo)
