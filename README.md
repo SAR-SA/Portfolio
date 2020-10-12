@@ -5,20 +5,28 @@
 ![](assets/Portfolio.JPG)
 ![](assets/Portfolio2.JPG)
 
-This is my Portfolio website. Displaying a little about me, my work and where to reach me.
+## Table of Contents
+- [Description](#descriptiongo)
+- [Authors](#authorgo)
+- [Questions](#contactgo)
+        
+## Description<a id='descriptiongo'></a>
 
--HTML
+This is my Portfolio. Letting you know a little about myself and what I'm working on.
 
--CSS
+## License<a id="licensego"></a>
 
--Javascript
+MIT License
 
--Jquery
+## Authors<a id="authorgo"></a>
 
--Font Awesome
+Shawn A. Rather
 
--Google Fonts
 
-Deployed Link: https://sar-sa.github.io/Portfolio/
+## Questions<a id="contactgo"></a>
 
-By Shawn A. Rather sarsa.web@gmail.com / https://github.com/SAR-SA
+Refer to github or send email with any questions:
+
+https://github.com/SAR-SA
+
+sarsa.web@gmail.com
